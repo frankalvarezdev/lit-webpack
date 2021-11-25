@@ -1,0 +1,25 @@
+{
+	"name": "music-frankalvarez",
+	"version": "1.0.0",
+	"description": "music.frankalvarez.dev",
+	"main": "src/index.js",
+	"scripts": {
+		"dev": "webpack-dev-server --open --mode development",
+		"build": "webpack build --mode production"
+	},
+	"keywords": [],
+	"author": "Frank Alvarez",
+	"license": "ISC",
+	"devDependencies": {
+		"copy-webpack-plugin": "^10.0.0",
+		"html-webpack-plugin": "^5.5.0",
+		"ts-loader": "^9.2.6",
+		"typescript": "^4.5.2",
+		"webpack": "^5.64.3",
+		"webpack-cli": "^4.9.1",
+		"webpack-dev-server": "^4.5.0"
+	},
+	"dependencies": {
+		"lit": "^2.0.2"
+	}
+}
